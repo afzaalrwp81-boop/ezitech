@@ -1,0 +1,76 @@
+.card-img-top{
+    height:60px;
+    width: 60px;
+}
+.card1{
+   
+     background-color:#FEF7FC ;
+     border: none;
+     transition: all 0.3s ease;
+     cursor: pointer;
+        padding: 35px 35px 35px 35px;
+}
+.card:hover{
+     transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+.card2{
+         background-color:#F4EEFA;
+     border: none;
+     transition: all 0.3s ease;
+     cursor: pointer;
+        padding: 35px 35px 35px 35px;
+}
+.card3{
+       background-color:#FFEDEF;
+     border: none;
+     transition: all 0.3s ease;
+     cursor: pointer;
+        padding: 35px 35px 35px 35px;
+}
+.card4{
+         background-color: #F0F8FF;
+     border: none;
+     transition: all 0.3s ease;
+     cursor: pointer;
+        padding: 35px 35px 35px 35px;
+}
+.card5{
+        background-color:  #FFFAF6;
+     border: none;
+     transition: all 0.3s ease;
+     cursor: pointer;
+        padding: 35px 35px 35px 35px;
+}
+.card6{
+     background-color:  #F1F7FD ;
+     border: none;
+     transition: all 0.3s ease;
+     cursor: pointer;
+        padding: 35px 35px 35px 35px;
+}
+.arrow {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card:hover .arrow {
+  opacity: 1;
+}
+
+
+
+.card:hover .card-text {
+  color: #555e89;
+}
+
+.explore {
+  margin-top: 20px;
+  font-weight: 600;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card:hover .explore {
+  opacity: 1;
+}

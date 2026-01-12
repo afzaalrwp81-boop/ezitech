@@ -1,0 +1,16 @@
+.top-bar {
+  z-index: 3;
+  position: relative;
+  font-weight:450;
+  font-family: sans-serif;
+  font-size: 13px;
+}
+
+span{
+  cursor: pointer;
+}
+@media (max-width: 991px) {
+  .top-bar {
+    display: none;
+  }
+}
