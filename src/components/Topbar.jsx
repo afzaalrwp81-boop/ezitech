@@ -2,8 +2,8 @@ import React from 'react'
 import "./Topbar.css"
 const TopBar = () => {
   return (
-   
-    <div className="top-bar">
+    <div>
+       <div className="top-bar">
       <div className="container p-3">
         <div className="row align-items-center">
           <div className="col-md-9 col-sm-12 d-flex flex-wrap align-items-center text-white">
@@ -29,6 +29,8 @@ const TopBar = () => {
       </div>
     </div>
     
+    </div>
   )
 }
-export default TopBar;
+
+export default TopBar
