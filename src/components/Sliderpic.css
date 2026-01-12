@@ -1,0 +1,44 @@
+ .review-slider-wrapper {
+  width: 100vw;
+  overflow: hidden;
+  margin-left: calc(-50vw + 50%);
+}
+.slider-track {
+  display: flex;
+  margin: 5rem;
+  gap: 50px;
+  width: max-content;
+  animation: scroll-left 25s linear infinite;
+  animation-play-state: running;
+}
+.slider-track:hover {
+  animation-play-state: paused;
+}
+.slider-track img{
+   height: 25px;
+   width:auto;
+}
+@keyframes scroll-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll-right {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+
+@media (max-width: 768px) {
+  .slider-track {
+    animation-duration: 40s;
+  }
+}

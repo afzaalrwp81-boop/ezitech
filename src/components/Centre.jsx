@@ -49,7 +49,7 @@ const Centre = () => {
 </div>
 <div className='container mt-5 p-5'>
   <div className='row'>
-   <div className='col-12 col-sm-10 col-md-4 col-lg-6'>
+   <div className='col-12 col-sm-12 col-md-4 col-lg-6'>
     <h1 className='Hundreds'>Hundreds of Successful Internships & Countings</h1>
     <p className='With mt-4 '>With a commitment to quality training and career advancement, we've empowered students from diverse backgrounds. Through structured Internship, hands-on projects, and expert mentorship, Ezitech Institute ensures that every student builds a solid foundation in IT.</p>
    </div>

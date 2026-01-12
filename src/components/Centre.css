@@ -4,8 +4,8 @@
   background: #fff;
 }
 .Shaping {
-  max-width: 80%;
-  margin: 0 auto;          /* 👈 THIS CENTERS THE ELEMENT */
+  max-width: 90%;
+  margin: 0 auto;  
   font-size: 45px;
   text-align: center;
   font-family: "Poppins", sans-serif;
@@ -16,10 +16,7 @@
   color: #a7a5a5;
   font-size:21px;
 }
-.Hundreds{
-  font-size:50px ;
-  font-weight: bolder;
-}
+
 .step-card::before {
   content: attr(data-step);
   position: absolute;
@@ -91,9 +88,23 @@
   border-top: 1px solid #e9ecef !important;
 }
 
-/* RESPONSIVE */
 @media (max-width: 768px) {
   .stats-title {
     font-size: 2.2rem;
   }
+  .Shaping{
+    font-size:30px;
+  }
+  .Hundreds{
+  font-size:40px ;
+  font-weight: bolder;
+  text-align: center;
+}
+.With{
+     color: #a7a5a5;
+     font-size: 15px;
+     line-height: 1.5em;
+     text-align: center;
+     width: 100%;
+}
 }

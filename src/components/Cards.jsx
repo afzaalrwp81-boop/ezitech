@@ -5,7 +5,7 @@ const Cards = () => {
   return (
     <div className='container'>
         <div className='row'>
-        <div className='col-12 col-lg-4 col-sm-10 col-md-6 ' >
+        <div className='col-12 col-lg-4 col-sm-10 col-md-12 ' >
          <div className='card card1'>
            <img  className='card-img-top' src="./app-development.png" alt="" />
            <div className='card-body'>
@@ -15,7 +15,7 @@ const Cards = () => {
            </div>
          </div>
         </div>
-        <div className='col-12 col-lg-4 col-sm-10 col-md-6 mt-5'>
+        <div className='col-12 col-lg-4 col-sm-10 col-md-12 mt-5'>
          <div className='card card2'>
            <img  className='card-img-top ' src="./thinking.png" alt="" />
            <div className='card-body'>
@@ -25,7 +25,7 @@ const Cards = () => {
            </div>
          </div>
         </div>
-        <div className='col-12 col-lg-4 col-sm-10 col-md-6'>
+        <div className='col-12 col-lg-4 col-sm-10 col-md-12'>
          <div className='card card3'>
            <img  className='card-img-top ' src="./programming.png" alt="" />
            <div className='card-body'>
@@ -36,7 +36,7 @@ const Cards = () => {
          </div>
         </div>
         
-        <div className='col-12 col-lg-4 col-sm-10 col-md-6  mt-5'>
+        <div className='col-12 col-lg-4 col-sm-10 col-md-12  mt-5'>
          <div className='card card4'  >
            <img  className='card-img-top ' src="./pen-tool.png" alt="" />
            <div className='card-body'>
@@ -46,7 +46,7 @@ const Cards = () => {
            </div>
          </div>
         </div>
-        <div className='col-12 col-lg-4 col-sm-10 col-md-6 mt-5'>
+        <div className='col-12 col-lg-4 col-sm-10 col-md-12 mt-5'>
          <div className='card  card5'  >
            <img  className='card-img-top ' src="./architecture.png" alt="" />
            <div className='card-body'>
@@ -56,7 +56,7 @@ const Cards = () => {
            </div>
          </div>
         </div>
-        <div className='col-12 col-lg-4 col-sm-10 col-md-6 mt-5'>
+        <div className='col-12 col-lg-4 col-sm-10 col-md-12 mt-5'>
          <div className='card card6'>
            <img  className='card-img-top ' src="./content-1.png" alt="" />
            <div className='card-body'>

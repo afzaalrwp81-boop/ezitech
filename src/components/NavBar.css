@@ -55,13 +55,7 @@
   .navbar{
     border-radius: 0 !important;
   }
-  .img-fluid{
-    width: 10%;
-  }
-  .imagesdown{
-    display: flex;
-    flex-direction: row;
-  }
+
 
   .Utilize {
     font-size: 12px;
