@@ -26,7 +26,7 @@
   background: rgba(0, 60, 140, 0.65);
 }
 .hero-section{
-      background-image: url("BgImg (1).jpeg");
+      background-image: url("/BgImg (1).jpeg");
    background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
