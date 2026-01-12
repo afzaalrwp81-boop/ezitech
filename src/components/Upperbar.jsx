@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Topbar.css"
-const TopBar = () => {
+const Topbar = () => {
   return (
     <div>
        <div className="top-bar">
@@ -33,4 +33,4 @@ const TopBar = () => {
   )
 }
 
-export default TopBar
+export default Topbar;

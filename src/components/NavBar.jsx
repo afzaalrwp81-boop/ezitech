@@ -2,7 +2,7 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./NavBar.css"
-import TopBar from './TopBar';
+import Topbar from './Upperbar';
 
 
 const NavBar = () => {
@@ -14,7 +14,7 @@ const NavBar = () => {
       <section className="hero-section" >
         <div className="hero-overlay"></div>
         
-        <TopBar/>
+        <Topbar/>
 
         
         <nav className="navbar navbar-expand-lg bg-light p-3 text-center rounded-4 container mb-3 position-relative z-2">
