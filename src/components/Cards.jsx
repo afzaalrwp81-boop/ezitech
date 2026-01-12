@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Cards.css"
 const Cards = () => {
   return (
-    <div className='container'>
+    <div className='container wholecard'>
         <div className='row'>
         <div className='col-12 col-lg-4 col-sm-10 col-md-12 ' >
          <div className='card card1'>
