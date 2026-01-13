@@ -1,8 +1,10 @@
 import React from "react";
 import "./ReviewSlider.css";
+import Socialcard from "./Socialcard";
 
 const ReviewSlider = () => {
   return (
+    <div>
     <div className="review-slider-wrapper">
       <div className="slider-track">
      <div className="review-card card">
@@ -160,6 +162,8 @@ const ReviewSlider = () => {
        <div>
      <p className='text-center'>Still have a question? Browse <a href="">documentation</a> or <a href="">submit a ticket</a></p>
 </div>
+    </div>
+    <Socialcard/>
     </div>
   );
 };

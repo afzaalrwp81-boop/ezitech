@@ -66,6 +66,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <a class="floatingwhatsapp" href="https://wa.me/03250610420" target="_blank" rel="noreferrer">💬</a>
     </footer>
   );
 };

@@ -1,0 +1,27 @@
+.card-icon{
+   font-size: 70px;
+   line-height: 8rem;
+   color: #4f6d7a;
+}
+.card-text1{
+    font-size:small;
+    color:#506071 ;
+    line-height: 2rem;
+}
+.boc{
+  border-right: 1px solid #ddd;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.boc:hover{
+
+ transform: scale(1.05);
+}
+.boc1{
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.boc1:hover{
+    
+ transform: scale(1.05);
+}
